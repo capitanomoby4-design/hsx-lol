@@ -27,9 +27,9 @@ do
 	local getconstants = debug.getconstants or debug.get_constants
 	_G.HSX_RunService = RunService
 	_G.HSX_HttpService = HttpService
-	lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/uhfork/Obsidian/main/Library.lua"))()
-	lib2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/uhfork/Obsidian/main/addons/ThemeManager.lua"))()
-	lib3 = loadstring(game:HttpGet("https://raw.githubusercontent.com/uhfork/Obsidian/main/addons/SaveManager.lua"))()
+	lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/capitanomoby4-design/hsx-lol/refs/heads/main/library/library.lua"))()
+	lib2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/capitanomoby4-design/hsx-lol/refs/heads/main/library/ThemeManager.lua"))()
+	lib3 = loadstring(game:HttpGet("https://raw.githubusercontent.com/capitanomoby4-design/hsx-lol/refs/heads/main/library/SaveManager.lua"))()
 	local options = lib.Options
 	local toggles = lib.Toggles
 	_G.HSX_SaveManager = lib3
